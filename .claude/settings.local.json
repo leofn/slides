@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh api *)",
+      "Bash(python3 -c 'import json,sys *)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('Pages URL:', d.get\\('html_url'\\),'| status:', d.get\\('status'\\),'| build:', d.get\\('source'\\)\\)\")"
+    ]
+  }
+}
